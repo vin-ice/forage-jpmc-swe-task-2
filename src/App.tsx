@@ -32,7 +32,9 @@ class App extends Component<{}, IState> {
    */
   renderGraph() {
     if (this.state.showGraph)
+    {
       return (<Graph data={this.state.data}/>)
+    }
   }
 
   /**
